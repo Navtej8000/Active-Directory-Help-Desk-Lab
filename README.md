@@ -128,7 +128,7 @@ Created an Employees Organizational Unit (OU), user accounts for Sarah Johnson a
 
 Added Sarah Johnson to the IT-Support security group to practice Active Directory group membership and access management.
 
-![IT Support Group Membership](screenshots/03-it-support-group-membership.png)
+![IT Support Group Membership](screenshots/03-it-support-group-membership)
 
 ### 4. Windows 11 Client Joined to Domain
 
