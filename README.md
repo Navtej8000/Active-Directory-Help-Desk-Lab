@@ -42,8 +42,6 @@ This lab simulates common Help Desk and IT Support tasks in a Windows domain env
 
 ## Skills Demonstrated
 
-## Skills Demonstrated
-
 - Windows Server administration
 - Active Directory Domain Services (AD DS)
 - Active Directory Users and Computers (ADUC)
