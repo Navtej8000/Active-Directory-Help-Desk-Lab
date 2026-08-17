@@ -166,7 +166,11 @@ Configured the domain user account to require a password change at the next logo
 
 ![Password Change Required](screenshots/09-password-change-required.png)
 
+## 10. Password Reset and Successful Logon
 
+Reset the domain user's password in Active Directory and verified that the user could successfully log on with the new credentials. This demonstrates a common Help Desk password reset and account recovery task.
+
+![Password Reset Successful Logon](screenshots/10-password-reset-successful-login.png)
 ## Next Steps / Lab Roadmap
 
 This portfolio will continue to expand into a complete hands-on Help Desk, Desktop Support, and IT Support lab. Each area below will be completed through practical labs, troubleshooting scenarios, screenshots, commands, and documentation.
