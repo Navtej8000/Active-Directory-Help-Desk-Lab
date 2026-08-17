@@ -1,6 +1,14 @@
 # Active Directory Help Desk Lab
 
-Hands-on Active Directory Help Desk lab demonstrating practical Windows domain administration, troubleshooting, access management, and PowerShell automation.
+Hands-on Help Desk lab demonstrating:
+
+- Windows Server and Active Directory administration
+- Windows 11 domain environment
+- User, group, and OU management
+- Group Policy and security policies
+- Account and authentication troubleshooting
+- Shared folder and NTFS permission management
+- Active Directory PowerShell administration and automation
 
 ## Project Overview
 
