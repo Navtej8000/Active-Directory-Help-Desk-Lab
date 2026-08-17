@@ -171,6 +171,104 @@ Configured the domain user account to require a password change at the next logo
 Reset the domain user's password in Active Directory and verified that the user could successfully log on with the new credentials. This demonstrates a common Help Desk password reset and account recovery task.
 
 ![Password Reset Successful Logon](screenshots/10-password-reset-successful-login.png)
+
+## 11. Disabled Account Logon Error
+
+Tested a disabled Active Directory user account from the Windows 11 client and confirmed that Windows prevented the user from logging on. This demonstrates troubleshooting of account-related authentication failures.
+
+![Disabled Account Logon Error](screenshots/11-disabled-account-login-error.png)
+
+## 12. Disabled Account Re-enabled and Successful Logon
+
+Re-enabled the disabled user account in Active Directory and verified that the user could successfully log on again. This demonstrates identifying and resolving a disabled-account authentication issue.
+
+![Disabled Account Re-enabled](screenshots/12-disabled-account-reenabled-success.png)
+
+## 13. IT Shared Folder Configuration
+
+Created an IT shared folder on the Windows Server to provide centralized network file access for authorized domain users.
+
+![IT Shared Folder Configuration](screenshots/13-it-shared-folder-configuration.png)
+
+## 14. IT-Support Group Share Permissions
+
+Configured share permissions for the IT-Support security group with Change and Read access. This allows authorized group members to access and modify files through the network share.
+
+![IT-Support Share Permissions](screenshots/14-it-support-group-share-permissions-change-read.png)
+
+## 15. IT-Support Group NTFS Permissions
+
+Configured NTFS Modify permissions for the IT-Support security group, allowing members to read, create, modify, and delete files within the shared folder.
+
+![IT-Support NTFS Permissions](screenshots/15-it-support-group-ntfs-modify-permissions.png)
+
+## 16. Authorized Domain User Access to Shared Folder
+
+Verified that an authorized domain user could successfully access the IT shared folder through the network using the UNC path.
+
+![Authorized User Shared Folder Access](screenshots/16-domain-user-access-shared-folder.png)
+
+## 17. Write Access Verification
+
+Verified that the authorized user could create and modify files inside the shared folder, confirming that the configured Share and NTFS permissions were working correctly.
+
+![Domain User Write Access](screenshots/17-domain-user-write-access-shared-folder.png)
+
+## 18. Unauthorized User Access Denied
+
+Tested the shared folder using a domain user without the required IT-Support group membership and confirmed that Windows denied access. This demonstrates group-based access control and permission troubleshooting.
+
+![Unauthorized User Access Denied](screenshots/18-unauthorized-user-shared-folder-access-denied.png)
+
+## 19. Mapped Network Drive
+
+Mapped the IT shared folder as a network drive on the Windows 11 client, providing the authorized user with convenient access to the shared resource through File Explorer.
+
+![Mapped Network Drive](screenshots/19-domain-user-mapped-network-drive.png)
+
+## 20. NTFS Permission Inheritance
+
+Reviewed advanced NTFS security settings to verify permission inheritance from the parent folder and understand how inherited permissions apply to folders, subfolders, and files.
+
+![NTFS Permission Inheritance](screenshots/20-ntfs-permission-inheritance.png)
+
+## 21. PowerShell – List Active Directory Users
+
+Used PowerShell and the Active Directory module to retrieve domain users and display their names, usernames, and account status. This demonstrates command-line Active Directory administration.
+
+![PowerShell List AD Users](screenshots/21-powershell-list-active-directory-users.png)
+
+## 22. PowerShell – Verify IT-Support Group Membership
+
+Used PowerShell to retrieve the members of the IT-Support security group and verify user group membership.
+
+![PowerShell IT-Support Group Membership](screenshots/22-powershell-it-support-group-membership.png)
+
+## 23. PowerShell – Active Directory User Account Status
+
+Used PowerShell to check an Active Directory user's account status, including whether the account was enabled, locked out, or had an expired password.
+
+![PowerShell AD User Account Status](screenshots/23-powershell-ad-user-account-status.png)
+
+## 24. PowerShell – User Password Status
+
+Used PowerShell to review password-related account properties, including the last password set time and whether the password was configured to never expire.
+
+![PowerShell AD User Password Status](screenshots/24-powershell-ad-user-password-status.png)
+
+## 25. Automated Active Directory User Onboarding
+
+Created and tested a PowerShell onboarding script that automates common Active Directory administration tasks. The script collects new employee information, securely accepts a temporary password, creates and enables the domain account in the Employees OU, requires a password change at first logon, adds the user to the IT-Support security group, and verifies successful account creation.
+
+![Automated AD User Onboarding Verification](screenshots/25-powershell-automated-ad-user-onboarding-verification.png)
+
+### PowerShell Automation Script
+
+The reusable onboarding script is included in this repository:
+
+[`New-ADUserOnboarding.ps1`](scripts/New-ADUserOnboarding.ps1)
+
+
 ## Next Steps / Lab Roadmap
 
 This portfolio will continue to expand into a complete hands-on Help Desk, Desktop Support, and IT Support lab. Each area below will be completed through practical labs, troubleshooting scenarios, screenshots, commands, and documentation.
