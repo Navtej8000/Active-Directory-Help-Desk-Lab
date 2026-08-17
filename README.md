@@ -160,6 +160,12 @@ Unlocked the user's account in Active Directory and verified successful domain a
 
 ![Successful Login After Unlock](screenshots/08-successful-login-after-unlock.png)
 
+## 9. Password Change Required at Logon
+
+Configured the domain user account to require a password change at the next logon. This demonstrates a common Help Desk security practice after creating an account or resetting a user's password.
+
+![Password Change Required](screenshots/09-password-change-required.png)
+
 
 ## Next Steps / Lab Roadmap
 
