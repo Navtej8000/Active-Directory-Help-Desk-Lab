@@ -1,11 +1,23 @@
 # Active Directory Help Desk Lab
-Hands-on Active Directory Help Desk lab using Windows Server, Windows 11, AD DS, Group Policy, user and group management, password policies, account lockout, and troubleshooting
+
+Hands-on Active Directory Help Desk lab demonstrating practical Windows domain administration, troubleshooting, access management, and PowerShell automation.
 
 ## Project Overview
 
-This project documents a hands-on Active Directory home lab built to develop practical skills for Help Desk and IT Support roles.
+This lab simulates common Help Desk and IT Support tasks in a Windows domain environment.
 
-The lab simulates a small business Windows domain environment where I configured a Windows Server domain controller, joined a Windows 11 workstation to the domain, created and managed users and security groups, configured Group Policy security settings, and tested common account and authentication scenarios.
+- Configured Windows Server as an Active Directory Domain Controller
+- Installed and configured Active Directory Domain Services (AD DS) and DNS
+- Joined a Windows 11 workstation to the domain
+- Created and managed Organizational Units (OUs), users, and security groups
+- Configured Group Policy, password policies, and account lockout policies
+- Performed password resets, account unlocks, and disabled-account troubleshooting
+- Configured shared folders with Share and NTFS permissions
+- Tested authorized and unauthorized user access
+- Configured and verified NTFS permission inheritance
+- Mapped network drives for domain users
+- Used PowerShell to manage and troubleshoot Active Directory
+- Created a PowerShell script to automate new-user onboarding
 
 ## Lab Environment
 
