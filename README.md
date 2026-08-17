@@ -22,19 +22,32 @@ The lab simulates a small business Windows domain environment where I configured
 
 ## Skills Demonstrated
 
-* Windows Server administration
-* Active Directory Domain Services (AD DS)
-* Active Directory Users and Computers (ADUC)
-* Domain user account administration
-* Organizational Unit (OU) management
-* Security group creation and membership management
-* Windows 11 domain joining
-* Group Policy configuration
-* Password policy administration
-* Account lockout policy configuration
-* Domain authentication testing
-* Basic Active Directory troubleshooting
-* Help Desk account and login troubleshooting
+## Skills Demonstrated
+
+- Windows Server administration
+- Active Directory Domain Services (AD DS)
+- Active Directory Users and Computers (ADUC)
+- Domain controller administration
+- Organizational Unit (OU) management
+- Domain user account creation and administration
+- Security group creation and membership management
+- Windows 11 domain joining
+- Group Policy configuration and troubleshooting
+- Password and account lockout policy administration
+- Account lockout troubleshooting and account unlocking
+- Password resets and password-change-at-logon configuration
+- Disabled account troubleshooting and re-enabling
+- Domain authentication and logon troubleshooting
+- Windows file sharing and network shares
+- Share permissions configuration
+- NTFS permissions and permission inheritance
+- Group-based access control
+- Testing authorized and unauthorized resource access
+- Network drive mapping
+- Active Directory administration with PowerShell
+- PowerShell user and group queries
+- PowerShell account and password status troubleshooting
+- PowerShell automation for Active Directory user onboarding
 
 ## Active Directory Configuration
 
