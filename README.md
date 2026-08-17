@@ -15,7 +15,7 @@ The lab simulates a small business Windows domain environment where I configured
 | Server            | Windows Server 2016                        |
 | Domain Controller | DC01                                        |
 | Domain            | corp.navtejlab.com                          |
-| Client            | Windows 11 - CLIENT01                       |
+| Client            | Windows 11 Pro - CLIENT01                       |
 | Directory Service | Active Directory Domain Services (AD DS)    |
 | Management        | Active Directory Users and Computers (ADUC) |
 | Policy Management | Group Policy Management                     |
