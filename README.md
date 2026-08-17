@@ -159,7 +159,7 @@ Verified in Active Directory Users and Computers that Sarah Johnson's account wa
 Unlocked the user's account in Active Directory and verified successful domain authentication from CLIENT01 using the Sarah Johnson domain account.
 
 ![Successful Login After Unlock](screenshots/08-successful-login-after-unlock.png)
-## Next Steps
+
 
 ## Next Steps / Lab Roadmap
 
