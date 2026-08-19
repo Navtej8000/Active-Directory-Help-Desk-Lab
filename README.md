@@ -174,10 +174,14 @@ This project strengthened my practical understanding of centralized identity man
 
 ---
 
-## Author
+---
 
-**Navtej Singh**  
-IT Support | Help Desk | Active Directory  
-Brampton, Ontario, Canada  
+## Author & Contact
+
+**Navtej Singh**
+IT Support | Help Desk | Active Directory
+Brampton, Ontario, Canada
+
+[LinkedIn](https://www.linkedin.com/in/navtej-singh-4162351a5/) | [Email](mailto:singhnavtej824@gmail.com) | [GitHub](https://github.com/Navtej8000)
 
 [GitHub Profile](https://github.com/Navtej8000)
